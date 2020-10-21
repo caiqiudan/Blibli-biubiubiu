@@ -59,5 +59,6 @@ class Danmu():
             #弹幕每隔5秒才能继续，bilibili规定
             time.sleep(6)
 
-sendmessage = Danmu(21403274)
-sendmessage.Send()
+if __name__ == '__main__':
+    sendmessage = Danmu(21403274)
+    sendmessage.Send()
